@@ -17,6 +17,12 @@ html {
   box-sizing: inherit;
 }
 
+*:focus {
+  outline: 2px dashed var(--primary);
+  outline-offset: 4px;
+  border-radius: 5px;
+}
+
 body {
   display: flex;
   flex-direction: column;
